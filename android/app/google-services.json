@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605633163256",
+    "project_id": "taxi-3ef0a",
+    "storage_bucket": "taxi-3ef0a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605633163256:android:0cec55a76106b0b3e4b00d",
+        "android_client_info": {
+          "package_name": "com.sevenone.taxi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1fnfWuSmL8Mtq2baFaM3jpOB70T-xTLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
