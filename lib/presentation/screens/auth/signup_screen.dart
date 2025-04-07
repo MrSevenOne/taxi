@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:taxi/core/config/app_constant.dart';
 import 'package:taxi/data/model/user_model.dart';
-import 'package:taxi/presentation/screens/auth/auth_provider.dart';
+import 'package:taxi/presentation/provider/auth_provider.dart';
 import 'package:taxi/presentation/widgets/snackbar_widget.dart';
 
 class SignupScreen extends StatelessWidget {
