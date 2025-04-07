@@ -4,13 +4,15 @@ import 'package:provider/provider.dart';
 import 'package:taxi/core/config/routes.dart';
 import 'package:taxi/core/config/theme/light_theme.dart';
 import 'package:taxi/core/services/one_signal/onesignal_service.dart';
-import 'package:taxi/presentation/screens/auth/auth_provider.dart';
+import 'package:taxi/presentation/provider/auth_provider.dart';
+import 'package:taxi/presentation/provider/yonalish_provider.dart';
 
 void main() {
   runApp(
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => AuthViewModel()),
+        ChangeNotifierProvider(create: (_)=> YonalishViewModel()),
       ],
       child: MyApp(),
     ),
@@ -33,7 +35,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       theme: lightTheme,
-      initialRoute: AppRoutes.splash,
+      initialRoute: AppRoutes.yonalish,
       onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
